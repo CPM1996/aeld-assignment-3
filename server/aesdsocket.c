@@ -227,6 +227,8 @@ int attendConn(int connSocketFd, int fileFd)
         }
     }
 
+    free(fullDataBuffer);
+
     return 0;
 }
 
