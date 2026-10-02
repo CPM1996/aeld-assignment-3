@@ -106,7 +106,6 @@ int main(const int argc, const char *argv[])
         return -1;
     }
 
-    //TODO fork()
     if(isDaemon)
     {
         ret = fork();
